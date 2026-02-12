@@ -1,0 +1,48 @@
+{
+  "category": "SHAPESHIFTER",
+  "meta": {
+    "version": "1.0.0",
+    "schema_version": "1.0.0",
+    "last_updated": "2026-01-14",
+    "repository": "https://github.com/wyrdness/pee-sua-samut",
+    "maintainers": [
+      {
+        "name": "Wyrdness Team",
+        "github": "wyrdness",
+        "role": "maintainer"
+      }
+    ],
+    "license": {
+      "data": "CC0-1.0",
+      "content": "CC-BY-4.0"
+    }
+  },
+  "phenomenon": {
+    "id": "pee-sua-samut",
+    "name": "Pee Sua Samut",
+    "aliases": [
+      {
+        "name": "Ghost Tiger"
+      },
+      {
+        "name": "Tiger Spirit"
+      },
+      {
+        "name": "Sua Samut"
+      }
+    ],
+    "category": "SHAPESHIFTER",
+    "subcategory": "Were-tiger",
+    "tags": [
+      "shapeshifter",
+      "were-creature",
+      "transformation",
+      "supernatural"
+    ],
+    "status": "documented",
+    "description": {
+      "summary": "Thai shapeshifter that transforms from human to tiger, protecting villages or seeking revenge",
+      "full": "Thai shapeshifter that transforms from human to tiger, protecting villages or seeking revenge"
+    }
+  }
+}
