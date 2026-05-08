@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-07",
     "repository": "https://github.com/wyrdness/pee-sua-samut",
     "maintainers": [
       {
@@ -16,72 +16,128 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "pee-sua-samut",
-    "name": "Pee Sua Samut",
-    "aliases": [],
-    "category": "SHAPESHIFTER",
-    "subcategory": "Were-tiger",
+    "name": "Phisuea Samut",
+    "aliases": [
+      { "name": "Pee Sua Samut", "language": "Thai (romanization)", "region": "Thailand", "meaning": "Common alternative romanization" },
+      { "name": "Phi Suea Samut", "language": "Thai (romanization)", "region": "Thailand" },
+      { "name": "Nang Phisuea Samut", "language": "Thai", "region": "Thailand", "meaning": "'Lady Phisuea Samut'" },
+      { "name": "Sea Butterfly", "language": "English", "region": "Thailand", "meaning": "Conventional gloss; the 'butterfly' element actually derives from a Thai term meaning 'ancestral ghost' rather than the insect" }
+    ],
+    "category": "ENTITY_SPIRIT",
+    "subcategory": "Sea ogress (yak / phi) of Thai literary tradition",
     "tags": [
-      "folklore",
-      "mythology"
+      "thai",
+      "thailand",
+      "sea",
+      "ogress",
+      "shapeshifter",
+      "literature",
+      "phra-aphai-mani",
+      "folklore"
     ],
     "status": "documented",
     "description": {
-      "summary": "Thai shapeshifter that transforms from human to tiger, protecting villages or seeking revenge This phenomenon represents an important part of Thai folklore and cultural heritage, with documented accounts and traditions spanning generations.",
-      "full": "Thai shapeshifter that transforms from human to tiger, protecting villages or seeking revenge This phenomenon represents an important part of Thai folklore and cultural heritage, with documented accounts and traditions spanning generations."
+      "summary": "Phisuea Samut, often romanized 'Pee Sua Samut', is a sea ogress from the Thai epic poem Phra Aphai Mani by Sunthorn Phu, who falls in love with the prince-hero Aphai Mani, takes him to her undersea cave, and is ultimately killed by heartbreak when he escapes.",
+      "full": "Phisuea Samut (Thai: ผีเสื้อสมุทร, Nang Phisuea Samut) is a major character in the Thai epic poem Phra Aphai Mani by Sunthorn Phu (1786-1855), one of Thailand's most important literary works. She is a sea ogress (yak / phi) who lives in a cave beneath the sea. Drawn to the prince Aphai Mani by his magical flute (pi), she lulls his companions to sleep and abducts him to her undersea realm. Disguised in human form as a beautiful woman, she takes him as her husband and bears him a son, Sin Samut, whom she keeps isolated for eight years. The hero eventually deceives her into a long meditative fast on a distant island and escapes by sea; when she realises she has been deceived she reverts to her true ogress form and pursues him. Aphai Mani plays his magical flute, and the music breaks Phisuea Samut's heart, killing her. Phisuea Samut is treated in Thai literary tradition not only as a monster but as a tragic romantic figure. She is a tutelary figure of Ko Samet in Rayong Province, where statues commemorate her, and she appears in Thai theatre, illustration, and popular culture."
     },
     "etymology": {
-      "origin": "| Thai |",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "Thai. ผีเสื้อ (phisuea) modern Thai for 'butterfly' but here understood by literary commentators as derived from an older sense referencing an ancestral or guardian spirit; สมุทร (samut) meaning 'ocean / sea'.",
+      "meaning": "Conventionally rendered as 'Sea Butterfly'; in context, 'Sea Spirit / Sea Ogress'.",
+      "first_use": "First appears in Sunthorn Phu's Phra Aphai Mani, composed in the early-to-mid 19th century during the early Rattanakosin era."
     }
   },
+
   "classification": {
     "taxonomy": {
-      "category": "SHAPESHIFTER",
-      "type": "Were-tiger",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "category": "ENTITY_SPIRIT",
+      "type": "Ogress / yak",
+      "subtype": "Sea ogress with shapeshifting ability",
+      "variant": "Thai literary"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "yak-thai", "name": "Yak (Thai giants/ogres)", "relationship": "superset", "description": "Broader Thai class of ogres / giants in Buddhist-derived mythology, of which Phisuea Samut is one" },
+      { "id": "phra-aphai-mani", "name": "Phra Aphai Mani (epic)", "relationship": "related", "description": "Sunthorn Phu's epic poem in which Phisuea Samut is the principal antagonist of the hero's youth" },
+      { "id": "rakshasi", "name": "Rakshasi", "relationship": "similar", "description": "Female Indic demoness type that influenced Southeast Asian ogress traditions" },
+      { "id": "calypso", "name": "Calypso (Greek myth)", "relationship": "similar", "description": "Greek nymph who likewise detains a hero on her island, often compared in scholarship to Phisuea Samut" }
+    ]
   },
+
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "features": [
+        { "feature": "Ogress true form", "description": "In her natural form, depicted as a large green ogress (yak) with fangs and claws", "frequency": "always" },
+        { "feature": "Beautiful human disguise", "description": "Can adopt the form of a beautiful woman to seduce or deceive humans", "frequency": "common" },
+        { "feature": "Submarine dwelling", "description": "Lives in an undersea cave from which she emerges", "frequency": "always" }
+      ],
+      "morphology": "Yak (ogress) of monstrous proportions in true form, with full shapeshifting capacity to assume a beautiful human female form."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "Shapeshifting", "description": "Transforms between her ogress true form and a beautiful human woman", "frequency": "always", "evidence_level": "folklore" },
+      { "ability": "Underwater habitation", "description": "Lives and travels beneath the sea", "frequency": "always", "evidence_level": "folklore" },
+      { "ability": "Magical compulsion / abduction", "description": "Lulls Aphai Mani's companions to sleep and abducts him to her cave", "frequency": "common", "evidence_level": "folklore" }
+    ],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "variable",
+      "disposition": "variable",
+      "social_structure": "solitary",
+      "habitat_preference": ["undersea caves", "open sea", "Gulf of Thailand and adjacent waters"],
+      "diet": "Ogress diet implied in the epic; not the primary focus of her narrative",
+      "patterns": [
+        "Detains the hero in her undersea realm",
+        "Adopts a human form to live with him as his wife",
+        "Reverts to her true ogress form when betrayed or angered",
+        "Pursues the escaping hero by sea"
+      ]
     }
   },
+
   "distribution": {
     "range": {
-      "description": "| Thai |",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "Phisuea Samut is a literary figure rooted in the Thai epic tradition; cultic and tourist veneration is concentrated on Ko Samet in Rayong Province, Thailand.",
+      "continents": ["Asia"],
+      "countries": ["Thailand"],
+      "regions": ["Gulf of Thailand", "Rayong Province", "Ko Samet"]
     },
-    "hotspots": [],
+    "hotspots": [
+      {
+        "name": "Ko Samet (Mermaid Island)",
+        "location": {
+          "description": "Island in the Gulf of Thailand, Rayong Province, where statues and cultural sites commemorate Phisuea Samut and the Phra Aphai Mani epic",
+          "country": "Thailand",
+          "region": "Rayong Province"
+        },
+        "peak_period": "19th century to present",
+        "notes": "Ko Samet is the principal cultural site associated with Phisuea Samut, with statues and shrines along its beaches."
+      }
+    ],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
+        "date": "1820s",
         "circa": true,
-        "source": "Traditional folklore"
-      }
+        "source": "Sunthorn Phu's Phra Aphai Mani, composed during the early Rattanakosin period (early-to-mid 19th century)."
+      },
+      "peak_activity_periods": [
+        { "period": "19th century to present", "description": "Continuous literary, theatrical, and popular-cultural presence in Thailand." }
+      ]
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "| Thai |",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "Phisuea Samut belongs to Thai literary mythology, drawing on Indic ogress and rakshasi traditions filtered through Thai Buddhist literary culture. The figure is the creation of Sunthorn Phu within Phra Aphai Mani, but builds on long-established Thai yak / ogre conventions.",
+      "earliest_accounts": "First and definitive appearance in Phra Aphai Mani by Sunthorn Phu, an enormously long epic poem (around 48,700 lines) composed across the early-to-mid 19th century.",
+      "folklore_connections": "Connected to Thai yak (ogre) tradition, Indic rakshasi tradition, and to a comparative tradition of 'detaining' female monsters in world literature, with which she is often compared (Circe, Calypso)."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "1820", "event": "Sunthorn Phu, then Phra Sunthon Wohan, composes large portions of Phra Aphai Mani including the Phisuea Samut episode", "significance": "Creation of the figure within Thai literature", "source": "Standard Thai literary histories of Sunthorn Phu and Phra Aphai Mani" },
+      { "date": "1986-06-26", "event": "UNESCO commemorates Sunthorn Phu's 200th birth anniversary, recognising him as a great poet of world literature", "significance": "International literary recognition of the source text", "source": "UNESCO list of anniversaries" }
+    ],
+    "modern_era": "Phisuea Samut continues to feature in Thai theatre (lakhon, likay), film, comics, animation, and sculpture; she anchors Ko Samet's literary tourism and is widely taught in Thai schools as part of the Phra Aphai Mani curriculum."
   },
+
   "sightings": {
     "statistics": {
       "total_documented": 0,
@@ -92,6 +148,7 @@
     "notable": [],
     "database_path": "./sightings/"
   },
+
   "evidence": {
     "physical": [],
     "photographic": [],
@@ -99,28 +156,89 @@
     "audio": [],
     "trace": []
   },
+
   "theories": {
-    "paranormal": [],
+    "paranormal": [
+      {
+        "name": "Tutelary spirit of Ko Samet",
+        "description": "In Thai popular religion, Phisuea Samut is venerated as a tutelary spirit of Ko Samet and the surrounding waters, with offerings made at her statues and shrines.",
+        "proponents": ["Local Ko Samet / Rayong tradition"],
+        "evidence_cited": ["Active offering and shrine practice on Ko Samet"]
+      }
+    ],
     "scientific": [],
-    "skeptical": []
+    "skeptical": [
+      {
+        "name": "Literary character",
+        "description": "Phisuea Samut is fundamentally a literary character created by Sunthorn Phu within Phra Aphai Mani; her cultic veneration is a downstream effect of the poem's cultural reach.",
+        "proponents": ["Thai literary scholars"],
+        "evidence_cited": ["Direct attestation in Phra Aphai Mani as her source text"]
+      }
+    ]
   },
+
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "Thai literary tradition (Phra Aphai Mani)",
+        "Local folk veneration on Ko Samet"
+      ],
+      "stories": [
+        "Phisuea Samut abducts Phra Aphai Mani to her undersea cave",
+        "The birth of Sin Samut and his upbringing in the undersea realm",
+        "Aphai Mani's escape and the death of Phisuea Samut by the magic flute"
+      ],
+      "beliefs": "Within the popular religious tradition of Ko Samet and Rayong, Phisuea Samut is treated as a guardian spirit of the sea who can be petitioned at her shrines."
     },
     "popular_culture": {
-      "literature": [],
-      "film_tv": [],
+      "literature": [
+        "Sunthorn Phu - Phra Aphai Mani (early-to-mid 19th century)"
+      ],
+      "film_tv": [
+        "Thai film and animated adaptations of Phra Aphai Mani including the 2002 animated film Sudsakorn-related works and 2006 Phra Aphai Mani: Legend of Silmilan"
+      ],
       "games": [],
-      "other": []
+      "other": [
+        "Ko Samet sculpture and tourist sites featuring Phisuea Samut",
+        "Inclusion in the Thai school literature curriculum"
+      ]
     }
   },
+
   "research": {
-    "researchers": [],
-    "organizations": [],
-    "ongoing_studies": "None documented"
+    "researchers": [
+      { "name": "Sunthorn Phu", "affiliation": "Royal poet, Rattanakosin court", "contribution": "Author of Phra Aphai Mani, the source text in which Phisuea Samut is created", "period": "1786-1855" }
+    ],
+    "organizations": [
+      { "name": "UNESCO (poetic heritage commemoration)", "url": "https://www.unesco.org", "focus": "Recognition of Sunthorn Phu and Phra Aphai Mani as world literary heritage" }
+    ],
+    "ongoing_studies": "Active Thai literary scholarship on Phra Aphai Mani; no scientific or paranormal field investigation given the figure's literary and cultic status."
   },
-  "sources": []
+
+  "sources": [
+    {
+      "id": "wikipedia-phisuea-samut",
+      "type": "website",
+      "title": "Phisuea Samut",
+      "publication": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Phisuea_Samut",
+      "accessed": "2026-05-07"
+    },
+    {
+      "id": "wikipedia-phra-aphai-mani",
+      "type": "website",
+      "title": "Phra Aphai Mani",
+      "publication": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Phra_Aphai_Mani",
+      "accessed": "2026-05-07"
+    },
+    {
+      "id": "pattaya-mail-mermaid-island",
+      "type": "article",
+      "title": "Finding Mermaid Island: Thai folklore comes alive on Ko Samet, Rayong",
+      "publication": "Pattaya Mail",
+      "url": "https://www.pattayamail.com/thailandnews/finding-mermaid-island-thai-folklore-comes-alive-on-ko-samet-rayong-358720",
+      "accessed": "2026-05-07"
+    }
+  ]
 }
